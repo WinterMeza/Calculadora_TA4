@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea_4_EJERC_1_2</title>
+    <link rel="icon" href="img/Calculadora.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
+</head>
+
+<body>
+    <!--TITULO-->
+    <h1>Ejercicios con parselnt() en Javascript</h1>
+    <div class="grid-container">
+        <!--Ejercicio 1 convertir-->
+        <form action="" method="get" class="formulario_1">
+            <h2>Ejercicio 1</h2>
+            <p>Cree una función que solicite un valor numérico al usuario en base
+                octal(8)
+                Y posteriormente muestre su equivalente en base decimal (10 ).
+                Muestre el resultado el resultado en una ventana emergente.</p><br>
+
+            <div> <strong> Ingrese el número (Base 8):</strong> <br><input class="ing1" type="number" id="octal"
+                    autofocus required></div>
+
+            <input class="bot1" type="submit" value="Convertir" onclick="convertiroctal()">
+        </form>
+
+        <form action="" method="get" class="formulario_2">
+            <h2>Ejercicio 2</h2>
+            <p>Cree una función que solicite dos números enteros al usuario estos,
+                números serán los parámetros de la función que se debe definir y que
+                devolverá la suma,
+                resta, multiplicación y división de dichos números . Utilice el método
+                alert()
+                para mostrar el resultado por pantalla, es necesario que recuerde el uso
+                del método
+                parselnt() para controlar los datos que ingresa el usuario.</p><br>
+
+            <!--Ejercicio 2 calculadora-->
+            <div>
+                <p> Primer número:<br></p> <input class="ing2" type="number" id="cuadro1" autofocus required>
+            </div>
+            <div>
+                <p> Segundo número: <br> </p> <input class="ing2" type="number" id="cuadro2" autofocus required>
+            </div>
+            <!--BOTON-->
+            <input class="bot2" type="submit" value="Calcular" onclick="calculadora()">
+        </form>
+    </div>
+    <div class="l">
+        <p>Estudiantes: Winter Meza Jiménez.</p>
+        <p>Curso: Quinto Nivel "B" 2021(2).</p>
+        <p>Asignatura: Aplicaciones Web 1.</p>
+        <P>Docente: Ing. Patricia Quiroz Palma. </P>
+    </div>
+</body>
+
+</html>

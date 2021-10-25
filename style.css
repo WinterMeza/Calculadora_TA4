@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    body{ /*Cuerpo*/
+    background-color: rgb(83, 231, 212);
+    font-family: 'Baloo Tamma 2', arial;
+    margin-bottom: 20px;
+    color: rgb(23, 122, 36);
+    font-weight: 70pxs;
+}
+    
+
+
+    h1{ /*Titulo central h1 */
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #2c6840;
+    font-weight: 60px;
+    font-size: 40px;
+    margin-left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h2{ /*Titulo 2*/
+    text-align: center;
+    color: #ffffff;
+    font-weight: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    }
+
+    /*Contendor de los formularios*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin-top: 0.1px;
+    }
+    /*Cuerpo de los dos formularios*/
+    form {
+    margin-top: 1px;
+    padding: 20px;
+    font-size: 20px;
+    width: 16em;
+    }
+    .formulario_1{
+    margin-right: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    background: #020507;
+    color: #e7fcf8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .formulario_2{
+    width: 400px;
+    color: #e7fcf8;
+    margin-top: 20px;
+    margin-right: 190px;
+    margin-left: 20px;
+    background: #020507;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Botones de ingreso ejercicio 1 y 2*/
+.bot1{
+background: #2d854b;
+border: 1px solid #5b9952;
+color: #ffff;
+width: 150px;
+height: 40px;
+margin-left: 100px;
+font-weight: 50px;
+font-size: 20px;
+border-radius: 90px;
+margin-top: -50px;
+}
+.bot2{
+background: #2d854b;
+border: 1px solid #2d854b;
+color: #ffff;
+width: 150px;
+height: 40px;
+margin-left: 185px;
+margin-top: 20px;
+font-weight: 50px;
+font-size: 20px;
+border-radius:90px;
+}
+
+/*Cuadro de ingreso ejercicio 1 y 2*/
+.ing1{
+margin-left: 10px;
+margin-top: 30px;
+margin-bottom: 50px;
+width: 300px;
+height: 30px;
+border: 2px solid #297416;
+border-radius: 5px;
+}
+
+.ing2{
+margin-left: 155px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 200px;
+height: 30px;
+border: 2px solid #297416;
+}
+
+.l{
+    color: rgb(66, 63, 63);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:10px ;
+    margin-top: -39%;
+}
